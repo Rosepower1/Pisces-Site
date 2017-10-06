@@ -1,0 +1,271 @@
+
+  body {
+  background : #333;
+  color:white;
+}
+
+  .navbar {
+    border-bottom: #lightblue 4px solid;
+    opacity: 0.8;
+}
+
+    .navbar-dark .navbar-nav .nav-link{
+      color: lightblue;
+}
+
+
+    .navbar-brand img{
+    height: 60px;
+}
+
+
+    /**----------------Home------------------**/
+
+
+
+  #home-section {
+    background:url('../img/dna strand.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 850px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+  .home-inner {
+    padding-top:200px;
+    font-size: 17px;
+}
+
+  .dark-overlay{
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 850px;
+}
+
+  .fa {
+    color: green;
+    background: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+
+
+   /**-------------- Services-------------------**/
+
+    section#services-head-section {
+      color:lightblue;
+      background-color: #295375
+}
+
+    #services {
+   background-color: #295375;
+  padding-bottom: 50px;
+
+}
+
+    .card-deck{
+  padding-bottom: 55px;
+}
+
+  img.card-img-top {
+    height: 258.95px;
+  }
+
+
+
+.card-title {
+  color:lightblue;
+}
+
+  .bg_primary_color {
+    background-color: #295375;
+    border-radius: 8px;
+    text-shadow: 1px 1px 1px #000;
+    color: fff;
+    width: 75%;
+    margin: 0 auto;
+    opacity: 0.9;
+}
+
+
+
+  p#more-button {
+  text-align: center;
+  opacity: 0.7;
+
+}
+
+  button.btn.more {
+  padding:2px;
+  font-size: 12px;
+}
+
+  .text-pisces-color {
+  color: #295375;
+
+}
+
+  .small_muted {
+    font-size: 13px;
+}
+
+  .btn_species {
+    background-color: #295375;
+    width: 50%;
+    text-shadow: 1px 1px 1px #000;
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+  button.btn_species {
+  margin-left: 25%!important;
+
+}
+
+
+  /*-----Accordian-More Services---*/
+
+  .other_services_header{
+
+  padding: 95px 0 65px 0;
+}
+
+  .round-h1 {
+    color:#333;
+    width: 50%;
+    margin: auto;
+    border: 3px solid lightblue;
+    border-radius: 50%;
+    padding: 24px 10px;
+
+
+
+
+}
+
+    /*------Accordian--*/
+
+  .tinted_card_header {
+    background: linear-gradient(to top right, #333, #295375 );
+
+    }
+
+#more_services {
+    padding-bottom: 55px;
+}
+
+/*-----THE TEAM---*/
+
+  #team {
+  padding: 100px 0;
+  background: #295375;
+}
+
+  #team img{
+    margin-top:-50px;
+
+}
+
+  .team_title{
+    padding-bottom: 50px;
+}
+
+  .card.hover_effect:hover {
+    color:#fff;
+    background-color: #9cb3d1;
+}
+
+
+    /*----CONTACT----*/
+
+  #contact_section {
+    position: relative;
+    background: url('../img/flatirons.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 600px;
+}
+
+  .contact-inner {
+    padding-top: 135px;
+}
+
+  .photo-overlay{
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    width: 100%;
+    min-height: 600px;
+    top: 400;
+    left: 0;
+}
+
+  .card-form {
+    opacity: 0.8;
+    background-color: #295375;
+}
+
+  .contact_card {
+  opacity: 0.8;
+}
+
+  textarea {
+    height: auto;
+    resize: vertical;
+
+}
+
+
+  @media only screen and (max-width: 768px) and (min-width: 576px) {
+      img.card-img-top {
+          height: 150px;
+}
+    ul {
+        padding-left: 2px;
+
+}
+
+  .collapse_ul {
+    border: none;
+    margin-left: 1px !important;
+
+}
+
+  h4.reduce_font_sm{
+    font-size: 1.0rem !important;
+}
+
+  h4.reduce_font_12 {
+    font-size: .89rem !important;
+}
+
+  li {
+    font-size: 13.5px;
+    padding-bottom: 6px;
+}
+
+  .card-title {
+    height: 40px;
+}
+
+  .bg_primary_color {
+    background-color: #295375;
+    font-size: 13px;
+    padding: 3px;
+}
+
+  .btn_species  {
+    font-size: 12px;
+    padding: 4px 5px;
+
+}
+
+
+
+}
